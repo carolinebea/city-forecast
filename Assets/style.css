@@ -1,0 +1,22 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: skyblue;
+  font-weight: bolder;
+  padding: 1px; 
+}
+
+#cityBtn {
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+}
+
+button {
+  margin-right: 0px;
+}
