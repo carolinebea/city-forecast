@@ -20,3 +20,20 @@ header {
 button {
   margin-right: 0px;
 }
+
+.card-style {
+  border: 2px solid black;
+}
+
+.forecast-card-style {
+  border: 2px solid black;
+  width: 30%;
+  margin: 5px;
+}
+
+
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+}
