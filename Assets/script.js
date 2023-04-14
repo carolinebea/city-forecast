@@ -20,7 +20,7 @@ $("#cityBtn").on("click", function(){
 })
 
 function geoCode(cityValue) {
-  fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityValue}&limit=5&appid=${apiKey}`)
+  fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${cityValue}&limit=5&appid=${apiKey}`)
   .then(response => response.json())
   .then(data => {
     // console.log(data)
@@ -61,7 +61,7 @@ function currentWthr(lat, lon) {
 
 
 function getForecast(lat, lon) {
-  fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
+  fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`)
   .then(response => response.json())
   .then(data => {
     console.log(data)
